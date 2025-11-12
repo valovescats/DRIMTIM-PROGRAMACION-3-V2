@@ -128,6 +128,8 @@
     <Content Include="Almacen\ListarAlmacenes.aspx" />
     <Content Include="Almacen\ModificarAlmacen.aspx" />
     <Content Include="Almacen\RegistrarAlmacen.aspx" />
+    <Content Include="ListarClientes.aspx" />
+    <Content Include="ListarClientexCompras.aspx" />
     <Content Include="ListarCombo.aspx" />
     <Content Include="ListarConjunto.aspx" />
     <Content Include="ListarCuentas.aspx" />
@@ -144,6 +146,7 @@
     <Content Include="ModificarMonto.aspx" />
     <Content Include="ModificarPorcentaje.aspx" />
     <Content Include="RegistarVentas.aspx" />
+    <Content Include="RegistrarClientes.aspx" />
     <Content Include="RegistrarCombo.aspx" />
     <Content Include="RegistrarComprobantes.aspx" />
     <Content Include="RegistrarCondicion.aspx" />
@@ -197,6 +200,7 @@
     <Content Include="SeleccionarPrendaLiquidacion.aspx" />
     <Content Include="SeleccionarPrendaMonto.aspx" />
     <Content Include="SeleccionarPrendaPorcentaje.aspx" />
+    <Content Include="VerCliente.aspx" />
     <Content Include="VerEmpleado.aspx" />
     <Content Include="VerItemsVenta.aspx" />
     <Content Include="VerPrendaSeleccionadaparaVenta.aspx" />
@@ -345,6 +349,20 @@
     <Compile Include="Almacen\ModificarAlmacen.aspx.designer.cs">
       <DependentUpon>ModificarAlmacen.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListarClientes.aspx.cs">
+      <DependentUpon>ListarClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarClientes.aspx.designer.cs">
+      <DependentUpon>ListarClientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarClientexCompras.aspx.cs">
+      <DependentUpon>ListarClientexCompras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarClientexCompras.aspx.designer.cs">
+      <DependentUpon>ListarClientexCompras.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ListarCombo.aspx.cs">
       <DependentUpon>ListarCombo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -464,6 +482,13 @@
     </Compile>
     <Compile Include="RegistarVentas.aspx.designer.cs">
       <DependentUpon>RegistarVentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarClientes.aspx.cs">
+      <DependentUpon>RegistrarClientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegistrarClientes.aspx.designer.cs">
+      <DependentUpon>RegistrarClientes.aspx</DependentUpon>
     </Compile>
     <Compile Include="RegistrarCombo.aspx.cs">
       <DependentUpon>RegistrarCombo.aspx</DependentUpon>
@@ -618,6 +643,13 @@
     </Compile>
     <Compile Include="SeleccionarPrendaPorcentaje.aspx.designer.cs">
       <DependentUpon>SeleccionarPrendaPorcentaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerCliente.aspx.cs">
+      <DependentUpon>VerCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerCliente.aspx.designer.cs">
+      <DependentUpon>VerCliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="VerEmpleado.aspx.cs">
       <DependentUpon>VerEmpleado.aspx</DependentUpon>
