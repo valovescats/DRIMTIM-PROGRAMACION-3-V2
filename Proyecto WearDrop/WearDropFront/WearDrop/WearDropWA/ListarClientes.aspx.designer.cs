@@ -11,7 +11,7 @@ namespace WearDropWA
 {
 
 
-    public partial class ListarCuentas
+    public partial class ListarClientes
     {
 
         /// <summary>
@@ -33,12 +33,12 @@ namespace WearDropWA
         protected global::System.Web.UI.WebControls.LinkButton lkFiltrar;
 
         /// <summary>
-        /// Control gvCuentas.
+        /// Control gvClientes.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvCuentas;
+        protected global::System.Web.UI.WebControls.GridView gvClientes;
     }
 }

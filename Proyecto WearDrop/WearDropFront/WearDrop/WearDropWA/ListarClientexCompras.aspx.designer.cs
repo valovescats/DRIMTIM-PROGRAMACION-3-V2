@@ -11,17 +11,17 @@ namespace WearDropWA
 {
 
 
-    public partial class ListarCuentas
+    public partial class ListarClientexCompras
     {
 
         /// <summary>
-        /// Control lkRegistrar.
+        /// Control lkRegresar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton lkRegistrar;
+        protected global::System.Web.UI.WebControls.LinkButton lkRegresar;
 
         /// <summary>
         /// Control lkFiltrar.
@@ -33,12 +33,30 @@ namespace WearDropWA
         protected global::System.Web.UI.WebControls.LinkButton lkFiltrar;
 
         /// <summary>
-        /// Control gvCuentas.
+        /// Control txtFiltroId.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvCuentas;
+        protected global::System.Web.UI.WebControls.TextBox txtFiltroId;
+
+        /// <summary>
+        /// Control txtFiltroNombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtFiltroNombre;
+
+        /// <summary>
+        /// Control gvCompras.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvCompras;
     }
 }
